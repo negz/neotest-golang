@@ -113,7 +113,7 @@ function M.build(pos, tree, strategy)
 		run_spec.context.is_dap_active = true
 	end
 
-	logger.debug({ "RunSpec:", run_spec })
+	logger.debug({ "RunSpec for file:", run_spec })
 	return run_spec
 end
 
